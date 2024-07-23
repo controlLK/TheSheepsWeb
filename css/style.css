@@ -1,4 +1,9 @@
 
+:root {
+  --brand-primary: rgb(37, 37, 37);
+  --white: #faf0e6;
+}
+
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
 body, html {
@@ -6,11 +11,41 @@ body, html {
   line-height: 1.8;
 }
 
+/* nav */
+.navbar-scrollin {
+  background-color: var(--brand-primary);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.navbar {
+  transition: all 0.5s;
+  font-weight: bold;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu.show {
+  display: flex;
+}
+
+.dropdown-menu li:first-child a{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card {
+  border: none;
+}
+
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("https://plus.unsplash.com/premium_photo-1661963927439-26e74bee3674?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("https://images.unsplash.com/photo-1603227868990-6c9ec2855594?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   min-height: 100%;
 }
 
@@ -34,7 +69,38 @@ body, html {
 
 }
 
+/* we know design */
 
+.back-img {
+  background-image: url('https://images.unsplash.com/photo-1603227868990-6c9ec2855594?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+}
+
+
+.team-pic{
+  border-radius: 100%;
+}
+/* */
+
+/* link hover */
+a {
+  color: yellow; /* Change to desired color */
+  text-decoration:none; /* Optional: Remove underline */
+}
+
+/* svg */
+svg {
+  left: 0;
+}
+
+.footer-edits {
+  padding-top: 64px;
+  background-image: url('1234.jpg');
+  background-position: center;
+  background-size: cover;
+  
+}
 
 
 /* 

@@ -1,3 +1,5 @@
+
+
 // Modal Image Gallery
 function onClick(element) {
     document.getElementById("img01").src = element.src;
@@ -6,6 +8,19 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
   }
   
+// nav
+const navElement = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () =>{
+  if (window.scrollY >= 50) {
+    navElement.classList.add('navbar-scrollin');
+  } else if (window.scrollY < 50) {
+    navElement.classList.remove('navbar-scrollin');
+  }
+
+});
+
+
   
   // Toggle between showing and hiding the sidebar when clicking the menu icon
   var mySidebar = document.getElementById("mySidebar");
