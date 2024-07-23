@@ -22,7 +22,7 @@
 <nav class="navbar navbar-expand-sm navbar-white fixed-top ">
   <div class="container">
     <a class="navbar-brand w3-text-white" href="index.html">BlackSheep</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  onclick="w3_open()"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
@@ -35,20 +35,20 @@
             </a>
             <div class="dropdown-menu w3-black" aria-labelledby="navbarDropdown">
               <ul>
-                <li><a class="dropdown-item w3-text-white" href="#">Engines</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Another Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="products.html">Engines</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Another Engine</a></li>
                 <li><div class="dropdown-divider w3-white"></div></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Also an Engine</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Engines</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Another Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Also an Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Engines</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Another Engine</a></li>
               </ul>
               <ul>
-                <li><a class="dropdown-item w3-text-white" href="#">Engines</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Another Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="products.html">Engines</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Another Engine</a></li>
                 <li><div class="dropdown-divider w3-white"></div></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Also an Engine</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Engines</a></li>
-                <li><a class="dropdown-item w3-text-white" href="#">Another Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Also an Engine</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Engines</a></li>
+                <li><a class="dropdown-item text-white-nav" href="#">Another Engine</a></li>
               </ul>
             </div>
           </li>
@@ -69,7 +69,7 @@
 
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none; z-index: 9999;" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="products.html" onclick="w3_close()" class="w3-bar-item w3-button">PRODUCTS</a>
   <a href="services.html" onclick="w3_close()" class="w3-bar-item w3-button">SERVICES</a>
@@ -80,76 +80,57 @@
 <!-- Header with full-height image --> 
 
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-text-white w3-center" style="padding-top: 400px;">
+  <div class="w3-text-white w3-center" style="padding-top: 300px;">
+    <div class="contactpage-box pt-5 pb-5">
     <span class="w3-jumbo w3-hide-small">CONTACT</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
     <span class="w3-large">Lets get in touch. Send us a message:</span>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+    
+    <div class="" id="contact">
+      <div style="margin-top:48px">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+        <br>
+      </div>
+    </div>
   </div>
+  </div> 
+
 </header>
 
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-    <br>
-  </div>
-</div>
+
 
 <!-- Footer -->
-
 <footer class="w3-center w3-black footer-edits">
   <div class="container">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   </br></br>
-    <div class="row">  
-      <div class="col-md-3 foot-text">
-        <h3 class="foot-about">
-          About
-        </h3>
-        <p>asddasd</p>
+    <div class="footer-links row d-flex flex-row">  
+      <div class="col-md-6 align-left ">
+        <div class="text-left"><a href="index.html">Home</a></div>
+        <div class="text-left"><a href="products.html">Engine Products</a></div>
+        <div class="text-left"><a href="products.html">Vehicular Products</a></div>
+        <div class="text-left"><a href="about.html">About</a></div>
+        <div class="text-left"><a href="contact.html">Contact</a></div>
       </div>
-      <div class="col-md-3 foot-text">
-        <h3 class="foot-about">
-          About
-        </h3>
-        <p>asddasd</p>
-      </div>
-      <div class="col-md-3 foot-text">
-        <h3 class="foot-about">
-          About
-        </h3>
-        <p>asddasd</p>
-      </div>
-      <div class="col-md-3 foot-text">
-        <h3 class="foot-about">
-          About
-        </h3>
-        <p>asddasd</p>
+      <div class="col-md-6 text-end">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
       </div>
     </div>
     
-    <div class="w3-xlarge w3-section">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
-    </div>
-    <p>Powered by ©2024 <a href="https://www.control.lk" title="Digital Control" target="_blank" class="w3-hover-text-green">Digital Control</a> , a subsidiary of Blacksheep Ventures. All Rights Reserved.</p>
+    
+    
+    <p>Powered by <a href="https://www.control.lk" title="Digital Control" target="_blank" class="w3-hover-text-green">Digital Control</a> , a subsidiary of Blacksheep Ventures.<br>All Rights Reserved  © 2024.</p>
+
   </div>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(19, 19, 19, 0.979)" fill-opacity="1" d="M0,192L480,224L960,320L1440,96L1440,320L960,320L480,320L0,320Z"></path></svg>
 </footer>

@@ -25,11 +25,13 @@ window.addEventListener('scroll', () =>{
   // Toggle between showing and hiding the sidebar when clicking the menu icon
   var mySidebar = document.getElementById("mySidebar");
   
-  function w3_open() {
+  function w3_open() {console.log("ijubkjm,bjkgchvjbkm,bjnp")
     if (mySidebar.style.display === 'block') {
       mySidebar.style.display = 'none';
+      console.log("ijubkjm,bjkm,bjnp")
     } else {
       mySidebar.style.display = 'block';
+      console.log("ijionp")
     }
   }
   
