@@ -39,3 +39,10 @@ window.addEventListener('scroll', () =>{
   function w3_close() {
       mySidebar.style.display = "none";
   }
+
+
+  // carousel
+
+  $('#carouselExample').carousel({
+    interval: 2000  // Change slide every 2 seconds
+  });
