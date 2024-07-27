@@ -48,7 +48,7 @@ body, html {
   color: white;
 }
 .hero-txt{
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 1px 1px 1px #000000;
 }
 /* Full height image header */
 .bgimg-1 {
@@ -85,6 +85,15 @@ body, html {
   background-image: url('https://images.unsplash.com/photo-1603227868990-6c9ec2855594?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-position: center; /* Center the image */
   background-repeat: no-repeat;
+}
+
+.h3-design {
+  margin-top: 9px;
+
+}
+
+.left-paddin {
+  padding-left: 7.5px;
 }
 
 /* carousel */

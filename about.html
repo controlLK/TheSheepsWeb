@@ -4,6 +4,7 @@
 <title>White Tiger</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -131,25 +132,27 @@
   <!-- <img src="https://images.unsplash.com/photo-1583024011792-b165975b52f5?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="background-image" class="bgimage"> -->
 
   <div class="overlay-text">
-    <h3 class="w3-center">ABOUT THE COMPANY</h3>
-    <p class="w3-center w3-large">Key features of our company</p>
+    <div data-aos="fade-up">
+      <h3 class="w3-center"><b>ABOUT THE COMPANY</b></h3>
+      <p class="w3-center w3-large"><b>Key features of our company</b></p>
+    </div>
     <div class="w3-row-padding w3-center" style="margin-top:64px">
-      <div class="w3-quarter">
+      <div data-aos="fade-up-left" class="w3-quarter">
         <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
         <p class="w3-large">Responsive</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
       </div>
-      <div class="w3-quarter">
+      <div data-aos="fade-up" class="w3-quarter">
         <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
         <p class="w3-large">Passion</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
       </div>
-      <div class="w3-quarter">
+      <div data-aos="fade-up" class="w3-quarter">
         <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
         <p class="w3-large">Design</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
       </div>
-      <div class="w3-quarter">
+      <div data-aos="fade-up-right" class="w3-quarter">
         <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
         <p class="w3-large">Support</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
@@ -161,11 +164,11 @@
 
 <!-- Promo Section - "We know design" -->
 <div class="w3-container w3-light-grey back-img" style="padding:128px 16px">
-  <div class="w3-row-padding container">
+  <div class="w3-row-padding container" data-aos="fade-up">
     <div class="w3-col m6 w3-text-white dark-bg">
-      <h3>We know design.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+      <h3 class="h3-design left-paddin">We know design.</h3>
+      <p class="left-paddin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+      <p class="left-paddin"><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
     </div>
   </div>
 </div>
@@ -173,50 +176,50 @@
 
 <!-- the team -->
 <div class="container" style="padding:128px 16px" id="services">
-  <h3 class="w3-center">THE TEAM</h3>
-  <p class="w3-center w3-large">The ones who runs this company</p>
+  <h3 class="w3-center" data-aos="fade-up">THE TEAM</h3>
+  <p class="w3-center w3-large" data-aos="fade-up">The ones who runs this company</p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom" data-aos="fade-up">
       <div class="w3-card">
         <img src="https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="team-pic" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>John Doe</h3>
           <p class="w3-opacity">CEO & Founder</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom" data-aos="fade-up">
       <div class="w3-card">
         <img src="https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="team-pic" alt="Jane" style="width:100%">
         <div class="w3-container">
           <h3>Anja Doe</h3>
           <p class="w3-opacity">Art Director</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom" data-aos="fade-up">
       <div class="w3-card">
         <img src="https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="team-pic" alt="Mike" style="width:100%">
         <div class="w3-container">
           <h3>Mike Ross</h3>
           <p class="w3-opacity">Web Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom" data-aos="fade-up">
       <div class="w3-card">
         <img src="https://images.unsplash.com/photo-1445053023192-8d45cb66099d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="team-pic" alt="Dan" style="width:100%">
         <div class="w3-container">
           <h3>Dan Star</h3>
           <p class="w3-opacity">Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          <!-- <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p> -->
         </div>
       </div>
     </div>
@@ -245,10 +248,10 @@
 
 <!-- News Section -->
 <div class="container" style="padding:128px 16px" id="news">
-  <h3 class="w3-center">OUR WORK</h3>
-  <p class="w3-center w3-large">What we've done for people</p>
+  <h3 class="w3-center" data-aos="fade-up"><b>OUR WORK</b></h3>
+  <p class="w3-center w3-large" data-aos="fade-up" data-aos="fade-up">What we've done for people</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
+  <div class="w3-row-padding" data-aos="fade-up" style="margin-top:64px">
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
     </div>
@@ -263,7 +266,7 @@
     </div>
   </div>
 
-  <div class="w3-row-padding w3-section">
+  <div class="w3-row-padding w3-section" data-aos="fade-up">
     <div class="w3-col l3 m6">
       <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
     </div>
@@ -279,6 +282,7 @@
   </div>
 </div>
 
+
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
@@ -290,8 +294,8 @@
 
 <!-- Skills Section -->
 <div class="w3-container w3-light-grey w3-padding-64">
-  <div class="w3-row-padding container">
-    <div class="w3-col m6">
+  <div class="w3-row-padding container" data-aos="fade-up">
+    <div class="w3-col m6" >
       <h3>Our Skills.</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
       tempor incididunt ut labore et dolore.</p>
@@ -319,7 +323,7 @@
 
 <footer class="w3-center w3-black pb-5">
   <div class="container">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <a href="#home" class="w3-button w3-light-grey" data-aos="fade-up" data-aos-duration="3000" ><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   </br></br>
     <div class="footer-links row d-flex flex-row">  
       <div class="col-md-6 align-left ">
@@ -345,6 +349,10 @@
 </footer>
  
 <script src="js\script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
